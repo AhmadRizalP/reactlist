@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  /* position: fixed; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  z-index: 100000;
+  padding: 10px 100px;
+  background-color: #222222;
+}
+
+.sticky {
+  background-color: #222222;
+  padding: 5px 100px;
+}
+
+.logo {
+  position: relative;
+  color: white;
+  transition: 0.6s;
+  font-weight: bold;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navigasi div {
+  position: relative;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: 0.6s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #27ae60;
+}
+
+.sticky .logo {
+  position: relative;
+  color: #27ae60;
+  transition: 0.6s;
+  font-weight: bold;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+}
